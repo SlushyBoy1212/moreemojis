@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "moreemojis",
+  "version": "${version}",
+  "name": "moreEmojis",
+  "description": "My first actual mod :D\nadds emojis using :name:\nyou can use resourcepacks to add more",
+  "authors": ["Slushyboy1212"],
+  "contact": {"Slushyboy1212": "discord @slushyboy1212"},
+  "license": "GPL-3.0",
+  "icon": "assets/moreemojis/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "org.bloodcircuit.moreemojis.client.MoreemojisClient"
+    ]
+  },
+  "mixins": [
+    "moreemojis.mixins.json",
+    {
+      "config": "moreemojis.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
