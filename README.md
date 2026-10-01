@@ -6,7 +6,7 @@ adds emojis using :name:
 ## Installation
 1. get [Fabric](https://fabricmc.net/use), if you don't know how to do this use Google.
 2. get [Fabric API](https://minecraft.curseforge.com/projects/fabric)
-3. download moreemojis from the releases page (will get replaced with a link once i upload this) or (hopefully) [Modrinth](https://modrinth.com)
+3. download moreemojis from the [releases page](https://github.com/SlushyBoy1212/moreemojis/releases) or (hopefully) [Modrinth](https://modrinth.com)
 4. move the .jar file to your mods folder 
 * `%appdata%/.minecraft/mods` on windows
 * `~/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/<instance>/mods/` on linux (using prismlauncher)
